@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #edf0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.submit-bar {
+  background: #4a235a;
+  padding: 12px;
+  text-align: center;
+}
+
+.submit-bar button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
