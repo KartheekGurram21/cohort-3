@@ -1,0 +1,5 @@
+coverage/
+node_modules/
+tests/
+solution/
+02-authmiddleware.js
